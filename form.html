@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <div class="fix_header">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/slick.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/common.css" />
+        <link rel="stylesheet" type="text/css" href="css/form.css">
+        <title>個別英語教室</title>
+    </div>
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <div class="logo">
+                <a href="index.html"><img class="top_logo" src="img/logo.png" alt="ロゴ"></a>
+                <a href="form.html" class="taiken">無料体験レッスン</a>
+            </div>
+        </div>
+
+        <div>
+            <div class="bargericon"><img src="img/barger.svg" alt="メニュー"></div>
+            <nav>
+                <ul class="header_nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+                    <li class="nav-item"><a href="english_lesson.html" class="nav-link">レッスン・授業料</a></li>
+                    <li class="nav-item"><a href="english_teacher.html" class="nav-link">講師紹介</a></li>
+                    <li class="nav-item"><a href="notify.html" class="nav-link">お知らせ</a></li>
+                    <li class="nav-item"><a href="form.html" class="nav-link">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <head>
+        <h1>体験レッスンのお申込み・お問合せ</h1>
+    </head>
+
+    <main>
+        <div class="box_con">
+            <form method="post" action="mail.php">
+                <table class="formTable">
+                    <tr>
+                        <th>ご予約内容</th>
+                        <td>
+                            <div class="box_br">
+                                <label>
+                                    <input name="contact_type" type="radio" value="1" class="radio02-input in_top"
+                                        id="radio02-01">
+                                    <label for="radio02-01">無料体験レッスン＆コース説明</label>
+                                </label>
+                            </div>
+                            <div class="box_br">
+                                <label>
+                                    <input name="contact_type" type="radio" value="1" class="radio02-input in_top"
+                                        id="radio02-02">
+                                    <label for="radio02-02">コース説明のみ</label>
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>現在の希望クラス</th>
+                        <td><select name="ご用件">
+                                <option value="">選択してください</option>
+                                <option value="ご質問・お問い合わせ">マンツーマンレッスン</option>
+                                <option value="リンクについて">グループレッスン</option>
+                                <option value="ご質問・お問い合わせ">Wレッスン</option>
+                                <option value="ご質問・お問い合わせ">集中対策コース</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <th>お名前<span>必須</span></th>
+                        <td><input size="20" type="text" name="お名前" /></td>
+                    </tr>
+                    <tr>
+                        <th>電話番号（半角）<span>必須</span></th>
+                        <td><input size="30" type="text" name="電話番号" /></td>
+                    </tr>
+                    <tr>
+                        <th>Mail（半角）</th>
+                        <td><input size="30" type="text" name="Email" /></td>
+                    </tr>
+                    <tr>
+                        <th>お問い合わせ内容<br /></th>
+                        <td><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></td>
+                    </tr>
+                </table>
+                <div class="con_pri">
+                    <div class="box_pri">
+                        <div class="box_tori">
+                            <h4>プライバシー</h4>
+                            <p class="txt">
+                                プライバシーポリシー記入
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box_check">
+                        <label>
+                            <input type="checkbox" name="acceptance-714" value="1" aria-invalid="false"
+                                class="agree"><span class="check">プライバシーポリシーに同意する</span>
+                        </label>
+                    </div>
+                    <p class="btn">
+                        <span><input type="submit" value="　 確認 　" /></span>
+                    </p>
+            </form>
+        </div>
+
+        <footer class="footer contents">
+            <div class="flexlist">
+                <ul class="footer_nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+                    <li class="nav-item"><a href="english_lesson.html" class="nav-link">レッスン・授業料</a></li>
+                    <li class="nav-item"><a href="english_teacher.html" class="nav-link">講師紹介</a></li>
+                    <li class="nav-item"><a href="notify.html" class="nav-link">お知らせ</a></li>
+                    <li class="nav-item"><a href="form.html" class="nav-link">お問い合わせ</a></li>
+                </ul>
+            </div>
+            <p class="Copyright"><small>Copyright© smileEnglish All Rights Reserved.</small></p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="slick.min.js" integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A="
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/js/modaal.min.js"
+            integrity="sha256-e8kfivdhut3LQd71YXKqOdkWAG1JKiOs2hqYJTe0uTk=" crossorigin="anonymous"></script>
+        <script src="english.js"></script>
+
+</body>
+
+</html>

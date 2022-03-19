@@ -1,0 +1,87 @@
+div .container {
+    margin: 0%;
+}
+
+.inner {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.fix_header {
+    position: fixed;
+}
+
+.flexlist {
+    display: flex;
+    list-style: none;
+}
+
+.flexlist a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #ffba00;
+}
+
+.container {
+    background-color: #fff5e1;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+h2 {
+    background-color: #deffff;
+}
+
+.underline{
+    border-bottom:solid 3px #ffba00;
+    font-size: x-large;
+}
+
+.row {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ffff;
+    position: relative;
+    letter-spacing: .05em;
+    justify-content: center;
+    padding: 10 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row p {
+    font-weight: 530;
+    color: #333333;
+    font-size: 120%;
+    padding-top:30px;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.teacher_flex{
+    padding-left: 0px;
+}
+
+body {
+    margin: 0;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:800px) {
+    .contents h2 {
+        font-size: large;
+    }
+
+    .contents p {
+        padding: 5% 0 5% 0;
+        font-size: smaller;
+    }
+
+    .underline{
+        font-size: large;
+    }
+}

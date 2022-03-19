@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+}
+
+h1 {
+    background-color:  #02a0e8;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.theme {
+    text-align: center;
+    margin-bottom: 60px;
+    ;
+}
+
+.theme a {
+    color:  #333333;
+    font-size: x-large;
+}
+
+.introduce {
+    max-width: 1500px;
+}
+
+.teacher4 {
+    background-color: #c8ebfa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    margin-bottom: 100px;
+}
+
+.a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #333333;
+}
+
+.b {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #333333;
+}
+
+.c {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #333333;
+}
+
+.d {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #333333;
+}
+
+
+
+section {
+    width: 40%;
+    text-indent: 1em;
+}
+
+.teacher4 li {
+    list-style-type: none;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.teacher4 li img {
+    width: 30%;
+}
+
+.teacher4 h4 {
+    font-size: xx-large;
+    color:  #ffba00;
+    font-weight: bolder;
+    margin: 0;
+}
+
+h3 {
+    background-color: #02a0e8;
+    color: #fff;
+    font-size: 150%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.watashitati {
+    margin: 0 auto;
+}
+
+
+h5 {
+    display: inline-block;
+    background-color:  #ffba00;
+    border-radius: 100%;
+    font-size: xx-large;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.taiken_syoukai {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.taiken_syoukai .e {
+    width: 100%;
+}
+
+.taiken_syoukai .f {
+    width: 100%;
+}
+
+.size {
+    flex: 2;
+}
+
+.size1 {
+    flex: 1;
+}
+
+
+@media screen and (max-width:800px) {
+    .theme a {
+        font-size: large;
+    }
+
+    .theme h1{
+        margin-top: 0%;
+        margin-bottom: 30px;
+    }
+
+    .a {
+        display: block;
+    }
+
+    .b {
+        display: block;
+    }
+
+    .c {
+        display: block;
+    }
+
+    .d {
+        display: block;
+    }
+
+    section {
+        width: 100%;
+        text-indent: 0em;
+    }
+
+    .teacher4 li img {
+        width: 100%;
+        border-radius: 0%;
+    }
+
+    .teacher4 li {
+        border-radius: 0%;
+    }
+
+    section h4 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .space {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        text-indent: 1em;
+    }
+
+    .taiken_syoukai {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}
